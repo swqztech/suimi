@@ -1,0 +1,10 @@
+[package]
+name = "suimi"
+version = "0.1.0"
+edition = "2021"
+description = "随密 — 本地随机密码 / 用户名 / 网名生成器"
+
+[dependencies]
+eframe = { version = "0.30", default-features = false, features = ["default_fonts", "glow"] }
+egui = "0.30"
+rand = "0.8"
